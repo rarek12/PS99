@@ -1,0 +1,131 @@
+_G.Settings = {
+	Players = {
+		["Ignore Me"] = true,
+		["Ignore Others"] = true
+	},
+	Meshes = {
+		Destroy = false,
+		LowDetail = true
+	},
+	Images = {
+		Invisible = true,
+		LowDetail = false,
+		Destroy = false,
+	},
+	Other = {
+		["No Particles"] = true,
+		["No Camera Effects"] = true,
+		["No Explosions"] = true,
+		["No Clothes"] = true,
+		["Low Water Graphics"] = true,
+		["No Shadows"] = true,
+		["Low Rendering"] = true,
+		["Low Quality Parts"] = true
+	}
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
+
+task.wait(30)
+
+local player = game.Players.LocalPlayer
+local char = game.Workspace[player.Name].HumanoidRootPart
+
+local args1 = {
+	[1] = 1
+}
+
+local args2 = {
+	[1] = 2
+}
+
+local args3 = {
+	[1] = 3
+}
+
+local args4 = {
+	[1] = 4
+}
+
+local args5 = {
+	[1] = 5
+}
+
+local args6 = {
+	[1] = 6
+}
+
+local args7 = {
+	[1] = 7
+}
+
+local args8 = {
+	[1] = 8
+}
+
+local args9 = {
+	[1] = 9
+}
+
+local args10 = {
+	[1] = 10
+}
+
+local args11 = {
+	[1] = 11
+}
+
+local args12 = {
+	[1] = 12
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args1))
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args2))
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args3))
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args4))
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args5))
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args6))
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args7))
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args8))
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args9))
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args10))
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args11))
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Redeem Free Gift"):InvokeServer(unpack(args12))
+
+task.wait(10)
+char.CFrame = game:GetService("Workspace").Map["3 | Castle"].PERSISTENT.Teleport.CFrame
+task.wait(3)
+char.CFrame = game:GetService("Workspace").Map["3 | Castle"].INTERACT.Machines.SmallDailyDiamonds.Pad.CFrame
+task.wait(1)
+char.CFrame = game:GetService("Workspace").Map["17 | Jungle"].PERSISTENT.Teleport.CFrame
+task.wait(3)
+char.CFrame = game:GetService("Workspace").Map["17 | Jungle"].INTERACT.Machines.DailyPotions.Pad.CFrame
+task.wait(1)
+char.CFrame = game:GetService("Workspace").Map["21 | Coral Reef"].PERSISTENT.Teleport.CFrame
+task.wait(3)
+char.CFrame = game:GetService("Workspace").Map["21 | Coral Reef"].INTERACT.Machines.DailyEnchants.Pad.CFrame
+task.wait(1)
+char.CFrame = game:GetService("Workspace").Map["24 | Palm Beach"].PERSISTENT.Teleport.CFrame
+task.wait(3)
+char.CFrame = game:GetService("Workspace").Map["24 | Palm Beach"].INTERACT.Machines.DailyItems.Pad.CFrame
+task.wait(1)
+char.CFrame = game:GetService("Workspace").Map["32 | Red Desert"].PERSISTENT.Teleport.CFrame
+task.wait(3)
+char.CFrame = game:GetService("Workspace").Map["32 | Red Desert"].INTERACT.Machines.MediumDailyDiamonds.Pad.CFrame
+task.wait(1)
+char.CFrame = game:GetService("Workspace").Map["78 | Dungeon Entrance"].PERSISTENT.Teleport.CFrame
+task.wait(3)
+char.CFrame = game:GetService("Workspace").Map["78 | Dungeon Entrance"].INTERACT.Machines.LargeDailyDiamonds.Pad.CFrame
+task.wait(1)
+char.CFrame = game:GetService("Workspace").Map["83 | Cotton Candy Forest"].PERSISTENT.Teleport.CFrame
+task.wait(3)
+char.CFrame = game:GetService("Workspace").Map["83 | Cotton Candy Forest"].INTERACT.Machines.MediumDailyPotions.Pad.CFrame
+task.wait(1)
+char.CFrame = game:GetService("Workspace").Map["88 | Carnival"].PERSISTENT.Teleport.CFrame
+task.wait(3)
+char.CFrame = game:GetService("Workspace").Map["88 | Carnival"].INTERACT.Machines.MediumDailyEnchants.Pad.CFrame
+task.wait(1)
+char.CFrame = game:GetService("Workspace").Map["90 | Clouds"].PERSISTENT.Teleport.CFrame
+task.wait(3)
+char.CFrame = game:GetService("Workspace").Map["90 | Clouds"].INTERACT.Machines.MediumDailyItems.Pad.CFrame
+task.wait(1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/scripts/main/hiddenauto.lua"))()

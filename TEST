@@ -25,7 +25,7 @@ _G.Settings = {
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
 
-task.wait(30)
+task.wait(20)
 
 local player = game.Players.LocalPlayer
 local char = game.Workspace[player.Name].HumanoidRootPart
@@ -127,5 +127,3 @@ task.wait(1)
 char.CFrame = game:GetService("Workspace").Map["90 | Clouds"].PERSISTENT.Teleport.CFrame
 task.wait(3)
 char.CFrame = game:GetService("Workspace").Map["90 | Clouds"].INTERACT.Machines.MediumDailyItems.Pad.CFrame
-task.wait(1)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/scripts/main/hiddenauto.lua"))()
